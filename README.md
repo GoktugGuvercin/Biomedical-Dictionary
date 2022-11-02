@@ -2,6 +2,8 @@
 
 - **Brain atrophy:** Brain antrophy, also called as cerebral atrophy, is generally described as the loss of neurons and the deficiency of connections between the neurons. In this case, the brain tends to shrink and its functionalities get weaker. Alzheimer and alcoholism are top-two diseases that directly results in brain atrophy.
 
+- **Optical Coherence Tomography:** Optical Coherence Tomography (OCT) is one of the medical imaging modalities commonly used by ophthalmologist. As a non-invasive approach, it generates cross-sectional images of the retina in micrometer-resolution between 20-5 $\mu m$ by using low-coherence light. Segmentation of OCT images has an important role on the diagnosis and treatment of different eye diseases like age-related macular degeneration (AMD) and diabetic macular edema (DME).
+
 - **Oncogene:** Proto-oncogenes are particular group of genes in responsible for regulating cell-growth and cell-division. These genes help the cells to grow and divide properly so that they can stay alive and generate new cells. When a proto-oncogene is modified in a way that it is constantly turned on (activated) even when it is not supposed to be, it becomes an oncogene. In this case, the cell grows and divide out of control, which results in cancer. In other words, an oncogene is a type of modified gene that has the potential to cause cancer. *Mutations*, *epigenetic changes*, and *chromosome rearrangements* are three main factors that convert proto-oncogenes into oncogenes.
 
   
