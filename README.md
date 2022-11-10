@@ -38,6 +38,22 @@ Image geometry is very important to segmentation and registration. In segmentati
 
 One of the main reasons why anisotropic voxels are used is awfulness of patients. In purpose, longer voxels through the depth axis are used to reduce scanning time. This is called "Manhattan voxels". 
 
-#### Limited Contrast:
+### Limited Contrast:
 
 Limited contrast is one of the problems that can directly affect the performance of medical imaging segmentation techniques. Different tissues might have similar physical properties, so they can be illustrated with similar intensity values in imaging modalities. In this case, differentiating adjacent but different tissue types becomes harder. Purely intensity-based segmentation algorithms such as region growing are prone to leak into adjacent tissue. 
+
+
+### Confusion Matrix:
+
+
+|                 | `Cond Positive` | `Cond Negative` |
+| ---             |     ---         |      ---        |
+| `Pred Positive` |  True Positive  |  False Positive |
+| `Pred Negative` | False Negative  |  True Negative  |
+
+* TP: Correctly Diagnosed Patients (Hits)
+* TN: Correctly Diagnosed Healthy Subjects (Correct Rejections)
+* FP: False Alarm (type-1 error, causing wrong treatment to be applied to healthy subject)
+* FN: Missing a disease (type-2 error, causing the delay of patient treatment)
+
+Specifically, brain atrophy and breast cancer have a lot of false positive cases. 
