@@ -42,6 +42,17 @@ One of the main reasons why anisotropic voxels are used is awfulness of patients
 
 Limited contrast is one of the problems that can directly affect the performance of medical imaging segmentation techniques. Different tissues might have similar physical properties, so they can be illustrated with similar intensity values in imaging modalities. In this case, differentiating adjacent but different tissue types becomes harder. Purely intensity-based segmentation algorithms such as region growing are prone to leak into adjacent tissue. 
 
+### Diagnosis of Brain Tumors: 
+
+Brain MRI is directly used in the diagnosis of brain tumors. For the detected tumors, a 2-steps process, both of which requires MRI scan, is conducted:
+
+- Surgical and radiation treatment planning
+- Treatment response evaluation
+
+Working with 3D MRI in deep learning is computationally expensive. Hence, one recommended approach is to divide the images into local patches. At this point, understanding relational dependencies between different brain regions and consideration of brain connectivity information have an important role in the diagnosis of tumors by semantic segmentation. Graph neural networks seem to be the most suitable technique for this:
+
+- It can incorporate local and global connectivity into model predictions. It achieves to do this by the aggregation of information shared by neighboring nodes. 
+- It can capture relational information between cortical brain regions. 
 
 ### Confusion Matrix:
 
