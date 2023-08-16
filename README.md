@@ -52,7 +52,23 @@ Brain MRI is directly used in the diagnosis of brain tumors. For the detected tu
 Working with 3D MRI in deep learning is computationally expensive. Hence, one recommended approach is to divide the images into local patches. At this point, understanding relational dependencies between different brain regions and consideration of brain connectivity information have an important role in the diagnosis of tumors by semantic segmentation. Graph neural networks seem to be the most suitable technique for this:
 
 - It can incorporate local and global connectivity into model predictions. It achieves to do this by the aggregation of information shared by neighboring nodes. 
-- It can capture relational information between cortical brain regions. 
+- It can capture relational information between cortical brain regions.
+
+### Folate and Its Relationship with Cancer:
+
+Folate is vitamin B9 and it is essential to fundamental cell processes. It is used in the metabolism of amino-acids for cell division. 
+It has an important role in DNA synthesis and DNA reapir. Rapidly dividing cells like cancer need to have huge amount of folate. Folate receptor is responsible for binding and transporting folate into cells. There are 3 major types of folate receptor: FOLR1 - FOLR2 - FOLR3
+
+If FOLR transporters are over-expressed (generated) in a specific tissue type, this means that this tissue needs so huge amount of folate molecule, which is the indication of cancer in that tissue. In other words, FOLR is proposed to promote cancer by increasing folate tranporting. Over-expression of FOLR1 can be identified in epithelial tissue segmentation.
+
+### B7H4 and Its Relationship with Cancer:
+
+B7 is a type of membrane protein which binds to biological membranes permanently. Glycophorin and Rhodopsin are well known membrane proteins observed in red blood cells and rod cells of retina respectively. T-cells are a type of white blood cells as promoter to immune system.
+
+The most famous B7 protein is B7-H4 which is capable of reducing the effect and response of T-cells in human body. It is obverted that over-expression of B7-H4 triggers many cancer types like breast, prostate and colorectal cancer by negatively regulating T-cell immunity.
+In normal tissues, B7-H4 molecule rate is limited, but in malignant tumors and the tissues infected with cancerogenesis, it is quite a lot. Hence, B7-H4 is considered as a potential diagnostic and prognostic biomarker in many cancer types.
+
+Over-production of B7H4 induces epithelial-mesenchymal transition (EMT), which is a biological process that causes cells to lose polarity, adhesion and gain migratory properties. In this case, epithelial tissues tend to go through canceroginesis, invasion, and metastasis. Epithelium segmentation tries to analyze EMT and correlates it with B7H4 membrane protein in deep learning.
 
 ### Confusion Matrix:
 
