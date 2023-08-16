@@ -70,6 +70,10 @@ In normal tissues, B7-H4 molecule rate is limited, but in malignant tumors and t
 
 Over-production of B7H4 induces epithelial-mesenchymal transition (EMT), which is a biological process that causes cells to lose polarity, adhesion and gain migratory properties. In this case, epithelial tissues tend to go through canceroginesis, invasion, and metastasis. Epithelium segmentation tries to analyze EMT and correlates it with B7H4 membrane protein in deep learning.
 
+### PTEN and Anti-Cancer Drugs:
+
+PTEN is a specific type of enzyme generated in human body as a part of phosphatase protein product. It is in charge of cell cycle regulation to avoid fast growing and constant dividing processes of cell structure. That is why it is commonly used as an ingredient of anti-cancer drugs and PTEN gene is evaluated as tumor suppressor gene. The lack of PTEN as a result of mutation in PTEN gene can trigger prostate cancer (PCa), lung cancer and breast cancer. Rapid loss of PTEN accelerates cancerogenesis, which directly impacts epithelial tissue. Epithelium segmentation in histopathological images of prostate or breast tissues generally targets on grading of cancer level and quantification of loss in PTEN level.
+
 ### Confusion Matrix:
 
 
