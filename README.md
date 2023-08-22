@@ -74,6 +74,12 @@ Over-production of B7H4 induces epithelial-mesenchymal transition (EMT), which i
 
 PTEN is a specific type of enzyme generated in human body as a part of phosphatase protein product. It is in charge of cell cycle regulation to avoid fast growing and constant dividing processes of cell structure. That is why it is commonly used as an ingredient of anti-cancer drugs and PTEN gene is evaluated as tumor suppressor gene. The lack of PTEN as a result of mutation in PTEN gene can trigger prostate cancer (PCa), lung cancer and breast cancer. Rapid loss of PTEN accelerates cancerogenesis, which directly impacts epithelial tissue. Epithelium segmentation in histopathological images of prostate or breast tissues generally targets on grading of cancer level and quantification of loss in PTEN level.
 
+### PD-1 and PD-L1 Proteins:
+
+PD-1, standing for programmed cell death 1, is a type of protein commonly observed on the surface of T and B cells.  The main role of this protein is to down-regulate immune system. In other words, it surpasses the power and inflammatory activity (generating a response against possible offending agent like viruses, bacteria or toxic chemical) of immune system partially. By doing this, many kinds of autoimmune diseases (diseases that occur because of immune system's mistakenly targeting on healthy tissues in the body) can be avoided by PD-1 protein, so it would promotes self-tolerance. 
+
+However, PD-1 is also capable of preventing immune system from killing cancer cells. The protein PD-L1 is dominantly expressed on cancer cells, and interaction of PD-1 with PD-L1 (binding by affinity) can hide cancer cells from immune system, so cancerogenesis in human body get a chance to accelerate its formation. At the end, cancer cells become capable of invading immune system. PD-1 inhibitors are specifically used to prevent the binding and interaction between PD-L1 and its receptor molecule PD-1, which is called cancer immunotherapy. PD-L1 expression and diagnosis of cancerogenesis can be detected by image segmentation on epithelial tissues with the help of deep learning. 
+
 ### Confusion Matrix:
 
 
